@@ -99,6 +99,18 @@ body {
 
 }
 
+.summary p:first-child {
+
+	padding-top: 50px;
+
+}
+
+.summary p:last-child {
+
+	padding-bottom: 50px;
+
+}
+
 .summary a:link {
 
 	color: #CDA34F;
@@ -132,6 +144,10 @@ p {
 	padding-bottom: 10px;
 
 	font-weight: bold;
+
+	margin-left: 10%;
+
+	margin-right: 10%;
 
 }
 
@@ -175,6 +191,18 @@ header::after {
 	
 }
 
+.preamble h3 {
+
+	padding-top: 50px;
+
+}
+
+.preamble p:last-child {
+
+	padding-bottom: 50px;
+
+}
+
 .preamble::after {
 
 	content: '';
@@ -202,6 +230,12 @@ h3 {
 
 	padding-bottom: 10px;
 
+	margin-left: 10%;
+
+	margin-right: 10%;
+
+	font-size: 1.6em;
+
 }
 
 .explanation {
@@ -209,6 +243,18 @@ h3 {
 	background-color: #373F27;
 
 	color: #CDA34F;
+
+}
+
+.explanation h3 {
+
+	padding-top: 50px;
+
+}
+
+.explanation p:last-child {
+
+	padding-bottom: 50px;
 
 }
 
@@ -234,6 +280,18 @@ h3 {
 	background-color: #636B46;
 
 	color: #E9E7DA;
+
+}
+
+.participation h3 {
+
+	padding-top: 50px;
+
+}
+
+.participation p:last-child {
+
+	padding-bottom: 50px;
 
 }
 
@@ -286,6 +344,18 @@ h3 {
 
 }
 
+.benefits h3 {
+
+	padding-top: 50px;
+
+}
+
+.benefits p:last-child {
+
+	padding-bottom: 50px;
+
+}
+
 .benefits::after {
 
 	content: '';
@@ -307,6 +377,18 @@ h3 {
 	background-color: #373F27;
 
 	color: #CDA34F;
+
+}
+
+.requirements h3 {
+
+	padding-top: 50px;
+
+}
+
+.requirements p:last-child {
+
+	padding-bottom: 80px;
 
 }
 
@@ -345,6 +427,14 @@ footer a {
 	width: 20%;
 
 	text-align: center;
+
+	padding-top: 5%;
+
+	padding-bottom: 5%;
+
+	font-weight: bold;
+
+	font-size: 1.3em;
 
 }
 
@@ -508,7 +598,18 @@ footer a:nth-child(5):active {
 
 	text-align: center;
 
+	margin-left: 0;
+
+	margin-right: 0;
+
+	padding-bottom: 8%;
+
+	padding-top: 8%;
+
+	font-family: 'Quicksand', san-serif;
+
 }
+
 
 .design-selection nav ul {
 
@@ -526,10 +627,21 @@ footer a:nth-child(5):active {
 
 	width: 50%;
 
+	padding-top: 10%;
+
+	padding-bottom: 10%;
+
+	text-align: center;
+
 }
 
 
 
+abbr {
+
+	text-decoration: none;
+
+}
 
 
 
@@ -853,9 +965,19 @@ footer a:nth-child(5):active {
 
 
 
+.design-archives {
 
+	padding-top: 50px;
 
+	padding-bottom: 50px;
 
+}
+
+.zen-resources {
+
+	padding-bottom: 70px;
+
+}
 
 .design-archives, .zen-resources {
 
@@ -863,11 +985,34 @@ footer a:nth-child(5):active {
 
 }
 
+.design-archives nav ul, .zen-resources ul {
+
+	list-style: none;
+
+}
+
 .design-archives h3, .zen-resources h3 {
 
 	color: #E9E7DA;
 
+	padding-bottom: 20px;
+
 }
+
+.design-archives a, .zen-resources a {
+
+	font-size: 1.3em;
+
+}
+
+.design-archives li, .zen-resources li {
+
+	margin-left: 10%;
+
+	margin-right: 10%;
+
+}
+
 
 .design-archives a:link, .zen-resources a:link {
 
@@ -921,6 +1066,7 @@ ul {
 
 }
 
+
 /* Wide Desktop view*/
 @media only screen and (min-width: 60em) {
 	main {
@@ -946,5 +1092,4 @@ ul {
 		padding: 2.5rem 1rem 2.5rem 2.5rem;
 		text-align: right;
 	}
-
 }
