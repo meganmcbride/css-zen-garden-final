@@ -921,3 +921,30 @@ ul {
 
 }
 
+/* Wide Desktop view*/
+@media only screen and (min-width: 60em) {
+	main {
+		display: flex;
+	}
+
+	.intro header h1::before {
+		margin: 0 0 0 2rem;
+	}
+
+	div#design-selection.design-selection, div#design-archives.design-archives, div#zen-resources.zen-resources {
+		margin-right: 0;
+		margin-left: auto;
+		text-align: right;
+	}
+
+	div#design-archives.design-archives, div#zen-resources.zen-resources {
+		padding: 1.5rem 1rem 1.5rem 1.5rem;
+	}
+
+	.design-selection nav ul li {
+		width: 100%;
+		padding: 2.5rem 1rem 2.5rem 2.5rem;
+		text-align: right;
+	}
+
+}
