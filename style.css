@@ -1069,7 +1069,7 @@ ul {
 
 /* Wide Desktop view*/
 @media only screen and (min-width: 60em) {
-	main {
+	aside.sidebar {
 		display: flex;
 	}
 
