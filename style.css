@@ -1069,13 +1069,51 @@ ul {
 
 /* Wide Desktop view*/
 @media only screen and (min-width: 60em) {
+
+	body {
+		background-color: #373F27;
+	}
+
+	h1 {
+		font-size: 3.3rem;
+	}
+
+	h2 {
+		font-size: 1.3rem;
+		margin: 0 0 5rem 0;
+	}
+
+	h3 {
+		font-size: 2.2rem;
+	}
+
+	p {
+		font-size: 1rem;
+	}
+
+	section#zen-intro.intro, div#zen-supporting.main.supporting {
+		width: 75%;
+	}
+
 	aside.sidebar {
-		display: flex;
+		position: absolute;
+		right: 0;
+		top: 10rem;
+		width: 25%;
 	}
 
 	.intro header h1::before {
-		margin: 0 0 0 2rem;
+		display: inline-block;
+		margin: 0;
+		
 	}
+
+	h1::before {
+		position: relative;
+		top: 6rem;
+	}
+
+	
 
 	div#design-selection.design-selection, div#design-archives.design-archives, div#zen-resources.zen-resources {
 		margin-right: 0;
@@ -1091,5 +1129,6 @@ ul {
 		width: 100%;
 		padding: 2.5rem 1rem 2.5rem 2.5rem;
 		text-align: right;
+		font-size: 1.3rem;
 	}
 }
