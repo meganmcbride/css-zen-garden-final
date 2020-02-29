@@ -1,0 +1,1256 @@
+@import url('https://fonts.googleapis.com/css?family=Alice|Quicksand&display=swap');
+
+/* Colors
+
+#CDA34F - Aztec Gold
+
+#E9E7DA - Eggshell
+
+#636B46 - Umber (lighter green)
+
+#373F27 - Kombu Green (darker green)
+
+#FFFFFF - White
+
+
+*/
+
+/*
+
+font-family: 'Quicksand', san-serif;
+
+font-family: 'Alice', serif;
+
+*/
+
+$AztecGold: #CDA34F;
+
+$Eggshell: #E9E7DA;
+
+$Umber: #636B46;
+
+$KombuGreen: #373F27;
+
+$White: #FFFFFF;
+
+$SerifFont: 'Alice', serif;
+
+$SansFont: 'Quicksand', sans-serif;
+
+$MobileSectionPadding: 50px;
+
+a {
+
+	text-decoration: none;
+
+}
+
+h1, h3, h4, h5, h6 {
+
+	font-family: $SerifFont;
+
+}
+
+h1 {
+
+	margin: 0;
+
+	color: $Eggshell;
+
+	font-size: 2em;
+
+}
+
+h2 {
+
+	margin: 0;
+
+	margin-top: 10px;
+
+	color: $AztecGold;
+
+	font-family: $SansFont;
+
+	font-size: 1em;
+
+}
+
+h1, h2 {
+
+	text-align: center;
+
+}
+
+
+html {
+
+	margin: 0;
+
+	padding: 0;
+
+	font-family: $SansFont;
+
+}
+
+body {
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+.intro header {
+
+    background-color: $KombuGreen;
+    
+    h1::before {
+
+        content: '';
+    
+        background: url(./images/Zen-Garden-Logo-Designs-5.jpg) center no-repeat;
+    
+        background-size: 200px 200px;
+    
+        width: 200px;
+    
+        height: 200px;
+    
+        display: block;
+    
+        margin-left: auto;
+    
+        margin-right: auto;
+    
+    }
+
+}
+
+
+.summary {
+
+	background-color: $Umber;
+
+	color: $Eggshell;
+
+    p:first-child {
+
+        padding-top: $MobileSectionPadding;
+    
+    }
+
+    p:last-child {
+
+        padding-bottom: $MobileSectionPadding;
+    
+    }
+
+    a:link {
+
+        color: $AztecGold;
+    
+    }
+
+    a:visited {
+
+        color: $AztecGold;
+    
+    }
+
+    a:hover {
+
+        color: $White;
+    
+    }
+
+    a:active {
+
+        color: $White;
+    
+    }
+
+}
+
+p {
+
+	margin: 0;
+
+	padding-top: 10px;
+
+	padding-bottom: 10px;
+
+	font-weight: bold;
+
+	margin-left: 10%;
+
+	margin-right: 10%;
+
+}
+
+header::after {
+
+	content: '';
+
+	background: url(./images/gradient1.png) no-repeat center;
+
+	display: block;
+
+	width: 100%;
+
+	height: 100px;
+
+	background-size: 100% 100px;
+
+}
+
+.summary::after {
+
+	content: '';
+
+	background: url(./images/gradient2.png) no-repeat center;
+
+	display: block;
+
+	width: 100%;
+
+	height: 100px;
+
+	background-size: 100% 100px;
+
+}
+
+.preamble {
+
+	background-color: $Eggshell;
+
+    color: $KombuGreen;
+    
+    h3 {
+
+        padding-top: $MobileSectionPadding;
+    
+    }
+
+    p:last-child {
+
+        padding-bottom: $MobileSectionPadding;
+    
+    }
+	
+}
+
+.preamble::after {
+
+	content: '';
+
+	background: url(./images/gradient3.png) no-repeat center;
+
+	display: block;
+
+	width: 100%;
+
+	height: 100px;
+
+	background-size: 100% 100px;
+
+
+}
+
+h3 {
+
+	margin-top: 0;
+
+	margin-bottom: 0;
+
+	padding-top: 20px;
+
+	padding-bottom: 10px;
+
+	margin-left: 10%;
+
+	margin-right: 10%;
+
+	font-size: 1.6em;
+
+}
+
+.explanation {
+
+	background-color: $KombuGreen;
+
+    color: $AztecGold;
+    
+    h3 {
+
+        padding-top: $MobileSectionPadding;
+    
+    }
+
+    p:last-child {
+
+        padding-bottom: $MobileSectionPadding;
+    
+    }
+
+}
+
+.explanation::after {
+
+	content: '';
+
+	background: url(./images/gradient1flipped.png) no-repeat center;
+
+	display: block;
+
+	width: 100%;
+
+	height: 100px;
+
+	background-size: 100% 100px;
+
+
+}
+
+.participation {
+
+	background-color: $Umber;
+
+    color: $Eggshell;
+    
+    h3 {
+
+        padding-top: $MobileSectionPadding;
+    
+    }
+
+    p:last-child {
+
+        padding-bottom: $MobileSectionPadding;
+    
+    }
+    
+    a:link {
+
+        color: $AztecGold;
+    
+    }
+
+    a:visited {
+
+        color: $AztecGold;
+    
+    }
+
+    a:hover {
+
+        color: $White;
+    
+    }
+
+    a:active {
+
+        color: $White;
+    
+    }
+
+}
+
+.participation::after {
+
+	content: '';
+
+	background: url(./images/gradient2.png) no-repeat center;
+
+	display: block;
+
+	width: 100%;
+
+	height: 100px;
+
+	background-size: 100% 100px;
+
+}
+
+.benefits {
+
+	background-color: $Eggshell;
+
+    color: $KombuGreen;
+    
+    h3 {
+
+        padding-top: $MobileSectionPadding;
+    
+    }
+
+    p:last-child {
+
+        padding-bottom: $MobileSectionPadding;
+    
+    }
+
+}
+
+.benefits::after {
+
+	content: '';
+
+	background: url(./images/gradient3flipped.png) no-repeat center;
+
+	display: block;
+
+	width: 100%;
+
+	height: 100px;
+
+	background-size: 100% 100px;
+
+}
+
+.requirements {
+
+	background-color: $KombuGreen;
+
+    color: $AztecGold;
+    
+    h3 {
+
+        padding-top: $MobileSectionPadding;
+    
+    }
+
+    p:last-child {
+
+        padding-bottom: 80px;
+    
+    }
+
+    a:link {
+
+        color: $Eggshell;
+    
+    }
+
+    a:visited {
+
+        color: $Eggshell;
+    
+    }
+
+    a:hover {
+
+        color: $White;
+    
+    }
+
+    a:active {
+
+        color: $White;
+    
+    }
+
+}
+
+footer {
+
+    display: flex;
+    
+    a {
+
+        width: 20%;
+    
+        text-align: center;
+    
+        padding-top: 5%;
+    
+        padding-bottom: 5%;
+    
+        font-weight: bold;
+    
+        font-size: 1.3em;
+    
+    }
+
+    a:nth-child(1) {
+
+        background-color: $Umber;
+    
+    }
+    
+    a:nth-child(1):link {
+    
+        color: $Eggshell;
+    
+    }
+    
+    a:nth-child(1):visited {
+    
+        color: $Eggshell;
+    
+    }
+    
+    a:nth-child(1):hover {
+    
+        color: $AztecGold;
+    
+    }
+    
+    a:nth-child(1):active {
+    
+        color: $AztecGold;
+    
+    }
+    
+    a:nth-child(2) {
+    
+        background-color: $Eggshell;
+        
+    }
+    
+    a:nth-child(2):link {
+    
+        color: $KombuGreen;
+    
+    }
+    
+    a:nth-child(2):visited {
+    
+        color: $KombuGreen;
+    
+    }
+    
+    a:nth-child(2):hover {
+    
+        color: $Umber;
+    
+    }
+    
+    a:nth-child(2):active {
+    
+        color: $Umber;
+    
+    }
+    
+    a:nth-child(3) {
+    
+        background-color: $AztecGold;
+        
+    }
+    
+    a:nth-child(3):link {
+    
+        color: $White;
+    
+    }
+    
+    a:nth-child(3):visited {
+    
+        color: $White;
+    
+    }
+    
+    a:nth-child(3):hover {
+    
+        color: $KombuGreen;
+    
+    }
+    
+    a:nth-child(3):active {
+    
+        color: $KombuGreen;
+    
+    }
+    
+    a:nth-child(4) {
+    
+        background-color: $KombuGreen;
+        
+    }
+    
+    a:nth-child(4):link {
+    
+        color: $Eggshell;
+    
+    }
+    
+    a:nth-child(4):visited {
+    
+        color: $Eggshell;
+    
+    }
+    
+    a:nth-child(4):hover {
+    
+        color: $AztecGold;
+    
+    }
+    
+    a:nth-child(4):active {
+    
+        color: $AztecGold;
+    
+    }
+    
+    a:nth-child(5) {
+    
+        background-color: $White;
+        
+    }
+    
+    a:nth-child(5):link {
+    
+        color: $AztecGold;
+    
+    }
+    
+    a:nth-child(5):visited {
+    
+        color: $AztecGold;
+    
+    }
+    
+    a:nth-child(5):hover {
+    
+        color: $KombuGreen;
+    
+    }
+    
+    a:nth-child(5):active {
+    
+        color: $KombuGreen;
+    
+    }
+
+}
+
+.select {
+
+	display: block;
+
+	background-color: $Umber;
+
+	color: $Eggshell;
+
+	text-align: center;
+
+	margin-left: 0;
+
+	margin-right: 0;
+
+	padding-bottom: 8%;
+
+	padding-top: 8%;
+
+	font-family: $SansFont;
+
+}
+
+
+.design-selection nav ul {
+
+	display: flex;
+
+	flex-wrap: wrap;
+
+	list-style: none;
+
+    width: 100%;
+    
+    li {
+
+        width: 50%;
+    
+        padding-top: 10%;
+    
+        padding-bottom: 10%;
+    
+        text-align: center;
+    
+    }
+
+    li:nth-child(1) {
+
+        background-color: $AztecGold;
+    
+        color: $White;
+    
+    }
+    
+    li:nth-child(1) a:link {
+    
+        color: $KombuGreen;
+    
+    }
+    
+    li:nth-child(1) a:visited {
+    
+        color: $KombuGreen;
+    
+    }
+    
+    li:nth-child(1) a:hover {
+    
+        color: $Eggshell;
+    
+    }
+    
+    li:nth-child(1) a:active {
+    
+        color: $Eggshell;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    li:nth-child(2) {
+    
+        background-color: $Eggshell;
+    
+        color: $KombuGreen;
+    
+    }
+    
+    li:nth-child(2) a:link {
+    
+        color: $AztecGold;
+    
+    }
+    
+    li:nth-child(2) a:visited {
+    
+        color: $AztecGold;
+    
+    }
+    
+    li:nth-child(2) a:hover {
+    
+        color: $Umber;
+    
+    }
+    
+    li:nth-child(2) a:active {
+    
+        color: $Umber;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    li:nth-child(3) {
+    
+        background-color: $KombuGreen;
+    
+        color: $AztecGold;
+    
+    }
+    
+    li:nth-child(3) a:link {
+    
+        color: $White;
+    
+    }
+    
+    li:nth-child(3) a:visited {
+    
+        color: $White;
+    
+    }
+    
+    li:nth-child(3) a:hover {
+    
+        color: $Eggshell;
+    
+    }
+    
+    li:nth-child(3) a:active {
+    
+        color: $Eggshell;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    li:nth-child(4) {
+    
+        background-color: $Umber;
+    
+        color: $Eggshell;
+    
+    }
+    
+    li:nth-child(4) a:link {
+    
+        color: $AztecGold;
+    
+    }
+    
+    li:nth-child(4) a:visited {
+    
+        color: $AztecGold;
+    
+    }
+    
+    li:nth-child(4) a:hover {
+    
+        color: $KombuGreen;
+    
+    }
+    
+    li:nth-child(4) a:active {
+    
+        color: $KombuGreen;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    li:nth-child(5) {
+    
+        background-color: $Eggshell;
+    
+        color: $KombuGreen;
+    
+    }
+    
+    li:nth-child(5) a:link {
+    
+        color: $AztecGold;
+    
+    }
+    
+    li:nth-child(5) a:visited {
+    
+        color: $AztecGold;
+    
+    }
+    
+    li:nth-child(5) a:hover {
+    
+        color: $Umber;
+    
+    }
+    
+    li:nth-child(5) a:active {
+    
+        color: $Umber;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    li:nth-child(6) {
+    
+        background-color: $AztecGold;
+    
+        color: $KombuGreen;
+    
+    }
+    
+    li:nth-child(6) a:link {
+    
+        color: $White;
+    
+    }
+    
+    li:nth-child(6) a:visited {
+    
+        color: $White;
+    
+    }
+    
+    li:nth-child(6) a:hover {
+    
+        color: $Eggshell;
+    
+    }
+    
+    li:nth-child(6) a:active {
+    
+        color: $Eggshell;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    li:nth-child(7) {
+    
+        background-color: $Umber;
+    
+        color: $Eggshell;
+    
+    }
+    
+    li:nth-child(7) a:link {
+    
+        color: $AztecGold;
+    
+    }
+    
+    li:nth-child(7) a:visited {
+    
+        color: $AztecGold;
+    
+    }
+    
+    li:nth-child(7) a:hover {
+    
+        color: $KombuGreen;
+    
+    }
+    
+    li:nth-child(7) a:active {
+    
+        color: $KombuGreen;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    li:nth-child(8) {
+    
+        background-color: $KombuGreen;
+    
+        color: $AztecGold;
+    
+    }
+    
+    li:nth-child(8) a:link {
+    
+        color: $Eggshell;
+    
+    }
+    
+    li:nth-child(8) a:visited {
+    
+        color: $Eggshell;
+    
+    }
+    
+    li:nth-child(8) a:hover {
+    
+        color: $White;
+    
+    }
+    
+    li:nth-child(8) a:active {
+    
+        color: $White;
+    
+    }
+
+}
+
+
+abbr {
+
+	text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.design-archives {
+
+	padding-top: $MobileSectionPadding;
+
+	padding-bottom: $MobileSectionPadding;
+
+}
+
+.zen-resources {
+
+	padding-bottom: 70px;
+
+}
+
+.design-archives, .zen-resources {
+
+    background-color: $AztecGold;
+    
+    ul {
+
+        list-style: none;
+    
+    }
+    
+    h3 {
+    
+        color: $Eggshell;
+    
+        padding-bottom: 20px;
+    
+    }
+    
+    a {
+    
+        font-size: 1.3em;
+    
+    }
+    
+    li {
+    
+        margin-left: 10%;
+    
+        margin-right: 10%;
+    
+    }
+    
+    
+    a:link {
+    
+        color: $KombuGreen;
+    
+    }
+    
+    a:visited {
+    
+        color: $KombuGreen;
+    
+    }
+    
+    a:hover {
+    
+        color: $Eggshell;
+    
+    }
+    
+    a:active {
+    
+        color: $Eggshell;
+    
+    }
+
+}
+
+ul {
+
+	padding: 0;
+
+	margin: 0;
+
+}
+
+
+/* Wide Desktop view*/
+@media only screen and (min-width: 60em) {
+
+	h1 {
+        
+		font-size: 3.3rem;
+		text-align: left;
+		
+	}
+
+	h2 {
+        
+		font-size: 1.3rem;
+		text-align: left;
+        padding: 0 0 0 16rem;
+        
+	}
+
+	h3 {
+        
+        font-size: 2.2rem;
+        
+	}
+
+	p {
+        
+		font-size: 1rem;
+        padding: 0 20% 0 0;
+        
+	}
+
+	section#zen-intro.intro, div#zen-supporting.main.supporting {
+        
+        width: 100%;
+        
+	}
+
+	aside.sidebar {
+        
+		position: absolute;
+		right: 0;
+		top: 10rem;
+        width: 25%;
+        
+	}
+
+	.intro header h1::before {
+        
+		display: inline-block;
+		margin: 0;
+		
+	}
+
+	h1::before {
+        
+		position: relative;
+        top: 6rem;
+        
+	}
+
+	
+
+	div#design-selection.design-selection, div#design-archives.design-archives, div#zen-resources.zen-resources {
+
+		margin-right: 0;
+		margin-left: auto;
+        text-align: right;
+        
+	}
+
+	div#design-archives.design-archives, div#zen-resources.zen-resources {
+
+        padding: 1.5rem 1rem 1.5rem 1.5rem;
+        
+	}
+
+	.design-selection nav ul li {
+
+		width: 100%;
+		padding: 2.5rem 1rem 2.5rem 2.5rem;
+		text-align: right;
+        font-size: 1.3rem;
+        
+	}
+
+	header::after {
+
+        content: '';
+
+        background: url(./images/gradient1flipped.png) no-repeat center;
+
+        display: block;
+
+        width: 100%;
+
+        height: 100px;
+
+        background-size: 100% 100px;
+
+    }
+
+    .summary::after {
+
+        content: '';
+
+        background: url(./images/gradient2flipped.png) no-repeat center;
+
+        display: block;
+
+        width: 100%;
+
+        height: 100px;
+
+        background-size: 100% 100px;
+
+    }
+
+    .preamble::after {
+
+        content: '';
+
+        background: url(./images/gradient3flipped.png) no-repeat center;
+
+        display: block;
+
+        width: 100%;
+
+        height: 100px;
+
+        background-size: 100% 100px;
+
+
+    }
+
+    .explanation::after {
+
+        content: '';
+
+        background: url(./images/gradient1.png) no-repeat center;
+
+        display: block;
+
+        width: 100%;
+
+        height: 100px;
+
+        background-size: 100% 100px;
+
+
+    }
+
+    .participation::after {
+
+        content: '';
+
+        background: url(./images/gradient2flipped.png) no-repeat center;
+
+        display: block;
+
+        width: 100%;
+
+        height: 100px;
+
+        background-size: 100% 100px;
+
+    }
+
+}
