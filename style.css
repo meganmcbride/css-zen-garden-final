@@ -1070,21 +1070,16 @@ ul {
 /* Wide Desktop view*/
 @media only screen and (min-width: 60em) {
 
-	body {
-		background-color: #373F27;
-	}
-
 	h1 {
 		font-size: 3.3rem;
-		position: relative;
-		left: -23rem;
+		text-align: left;
+		
 	}
 
 	h2 {
 		font-size: 1.3rem;
-		margin: 0 0 5rem 0;
-		position: relative;
-		left: -17rem;
+		text-align: left;
+		padding: 0 0 0 16rem;
 	}
 
 	h3 {
@@ -1093,10 +1088,11 @@ ul {
 
 	p {
 		font-size: 1rem;
+		padding: 0 20% 0 0;
 	}
 
 	section#zen-intro.intro, div#zen-supporting.main.supporting {
-		width: 75%;
+		width: 100%;
 	}
 
 	aside.sidebar {
