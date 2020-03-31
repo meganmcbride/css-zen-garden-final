@@ -665,7 +665,7 @@ footer {
 
 	padding-top: 8%;
 
-	font-family: $SansFont;
+    font-family: $SerifFont;
 
 }
 
@@ -690,6 +690,12 @@ footer {
     
         text-align: center;
     
+    }
+
+    li:nth-child(1) a:nth-child(1) {
+
+        text-transform: uppercase;
+
     }
 
     li:nth-child(1) {
@@ -737,6 +743,12 @@ footer {
         color: $KombuGreen;
     
     }
+
+    li:nth-child(2) a:nth-child(1) {
+
+        text-transform: uppercase;
+
+    }
     
     li:nth-child(2) a:link {
     
@@ -780,6 +792,12 @@ footer {
         color: $AztecGold;
     
     }
+
+    li:nth-child(3) a:nth-child(1) {
+
+        text-transform: uppercase;
+
+    }
     
     li:nth-child(3) a:link {
     
@@ -818,6 +836,12 @@ footer {
     
         color: $Eggshell;
     
+    }
+
+    li:nth-child(4) a:nth-child(1) {
+
+        text-transform: uppercase;
+
     }
     
     li:nth-child(4) a:link {
@@ -862,6 +886,12 @@ footer {
         color: $KombuGreen;
     
     }
+
+    li:nth-child(5) a:nth-child(1) {
+
+        text-transform: uppercase;
+
+    }
     
     li:nth-child(5) a:link {
     
@@ -900,6 +930,12 @@ footer {
     
         color: $KombuGreen;
     
+    }
+
+    li:nth-child(6) a:nth-child(1) {
+
+        text-transform: uppercase;
+
     }
     
     li:nth-child(6) a:link {
@@ -940,6 +976,12 @@ footer {
         color: $Eggshell;
     
     }
+
+    li:nth-child(7) a:nth-child(1) {
+
+        text-transform: uppercase;
+
+    }
     
     li:nth-child(7) a:link {
     
@@ -978,6 +1020,12 @@ footer {
     
         color: $AztecGold;
     
+    }
+
+    li:nth-child(8) a:nth-child(1) {
+
+        text-transform: uppercase;
+
     }
     
     li:nth-child(8) a:link {
@@ -1323,5 +1371,412 @@ ul {
         background-size: 100% 100px;
 
     }
+
+
+
+
+    .select {
+
+        background-color: $AztecGold;
+
+        color: $Eggshell;
+
+    }
+
+    .design-selection nav ul {
+
+        li {
+
+            border-bottom: solid 2px $Eggshell;
+
+        }
+    
+        li:nth-child(1) {
+
+            border-top: solid 2px $Eggshell;
+    
+            background-color: $AztecGold;
+        
+            color: $Eggshell;
+        
+        }
+
+        li:nth-child(1) a:nth-child(1):after {
+
+            content:"\a";
+            white-space: pre;
+    
+        }
+        
+        li:nth-child(1) a:link {
+        
+            color: $KombuGreen;
+        
+        }
+        
+        li:nth-child(1) a:visited {
+        
+            color: $KombuGreen;
+        
+        }
+        
+        li:nth-child(1) a:hover {
+        
+            color: $Eggshell;
+        
+        }
+        
+        li:nth-child(1) a:active {
+        
+            color: $Eggshell;
+        
+        }
+        
+        
+        
+        
+        
+        
+        
+        li:nth-child(2) {
+        
+            background-color: $AztecGold;
+        
+            color: $Eggshell;
+        
+        }
+
+        li:nth-child(2) a:nth-child(1):after {
+
+            content:"\a";
+            white-space: pre;
+    
+        }
+        
+        li:nth-child(2) a:link {
+        
+            color: $KombuGreen;
+        
+        }
+        
+        li:nth-child(2) a:visited {
+        
+            color: $KombuGreen;
+        
+        }
+        
+        li:nth-child(2) a:hover {
+        
+            color: $Eggshell;
+        
+        }
+        
+        li:nth-child(2) a:active {
+        
+            color: $Eggshell;
+        
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        li:nth-child(3) {
+        
+            background-color: $AztecGold;
+        
+            color: $Eggshell;
+        
+        }
+
+        li:nth-child(3) a:nth-child(1):after {
+
+            content:"\a";
+            white-space: pre;
+    
+        }
+        
+        li:nth-child(3) a:link {
+        
+            color: $KombuGreen;
+        
+        }
+        
+        li:nth-child(3) a:visited {
+        
+            color: $KombuGreen;
+        
+        }
+        
+        li:nth-child(3) a:hover {
+        
+            color: $Eggshell;
+        
+        }
+        
+        li:nth-child(3) a:active {
+        
+            color: $Eggshell;
+        
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        li:nth-child(4) {
+        
+            background-color: $AztecGold;
+        
+            color: $Eggshell;
+        
+        }
+
+        li:nth-child(4) a:nth-child(1):after {
+
+            content:"\a";
+            white-space: pre;
+    
+        }
+        
+        li:nth-child(4) a:link {
+        
+            color: $KombuGreen;
+        
+        }
+        
+        li:nth-child(4) a:visited {
+        
+            color: $KombuGreen;
+        
+        }
+        
+        li:nth-child(4) a:hover {
+        
+            color: $Eggshell;
+        
+        }
+        
+        li:nth-child(4) a:active {
+        
+            color: $Eggshell;
+        
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        li:nth-child(5) {
+        
+            background-color: $AztecGold;
+        
+            color: $Eggshell;
+        
+        }
+
+        li:nth-child(5) a:nth-child(1):after {
+
+            content:"\a";
+            white-space: pre;
+    
+        }
+        
+        li:nth-child(5) a:link {
+        
+            color: $KombuGreen;
+        
+        }
+        
+        li:nth-child(5) a:visited {
+        
+            color: $KombuGreen;
+        
+        }
+        
+        li:nth-child(5) a:hover {
+        
+            color: $Eggshell;
+        
+        }
+        
+        li:nth-child(5) a:active {
+        
+            color: $Eggshell;
+        
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        li:nth-child(6) {
+        
+            background-color: $AztecGold;
+        
+            color: $Eggshell;
+        
+        }
+
+        li:nth-child(6) a:nth-child(1):after {
+
+            content:"\a";
+            white-space: pre;
+    
+        }
+        
+        li:nth-child(6) a:link {
+        
+            color: $KombuGreen;
+        
+        }
+        
+        li:nth-child(6) a:visited {
+        
+            color: $KombuGreen;
+        
+        }
+        
+        li:nth-child(6) a:hover {
+        
+            color: $Eggshell;
+        
+        }
+        
+        li:nth-child(6) a:active {
+        
+            color: $Eggshell;
+        
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        li:nth-child(7) {
+        
+            background-color: $AztecGold;
+        
+            color: $Eggshell;
+        
+        }
+
+        li:nth-child(7) a:nth-child(1):after {
+
+            content:"\a";
+            white-space: pre;
+    
+        }
+        
+        li:nth-child(7) a:link {
+        
+            color: $KombuGreen;
+        
+        }
+        
+        li:nth-child(7) a:visited {
+        
+            color: $KombuGreen;
+        
+        }
+        
+        li:nth-child(7) a:hover {
+        
+            color: $Eggshell;
+        
+        }
+        
+        li:nth-child(7) a:active {
+        
+            color: $Eggshell;
+        
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        li:nth-child(8) {
+        
+            background-color: $AztecGold;
+        
+            color: $Eggshell;
+        
+        }
+
+        li:nth-child(8) a:nth-child(1):after {
+
+            content:"\a";
+            white-space: pre;
+    
+        }
+        
+        li:nth-child(8) a:link {
+        
+            color: $KombuGreen;
+        
+        }
+        
+        li:nth-child(8) a:visited {
+        
+            color: $KombuGreen;
+        
+        }
+        
+        li:nth-child(8) a:hover {
+        
+            color: $Eggshell;
+        
+        }
+        
+        li:nth-child(8) a:active {
+        
+            color: $Eggshell;
+        
+        }
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
