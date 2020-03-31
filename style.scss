@@ -645,7 +645,6 @@ footer {
 
 }
 
-
 .design-selection nav ul {
 
 	display: flex;
@@ -1093,7 +1092,7 @@ ul {
         position: relative;
         text-align: left;
 		font-size: 3.3rem;
-		animation: fadein 2s; 
+		animation: fadein 1.3s; 
     }
     
     @keyframes fadein {
@@ -1103,7 +1102,7 @@ ul {
         }
 
         50% {
-            opacity: .5;
+            opacity: .1;
         }
 
         to {
@@ -1118,7 +1117,7 @@ ul {
 		font-size: 1.3rem;
 		text-align: left;
         padding: 0 0 0 16rem;
-        animation: fadein 2s;
+        animation: fadein 1.3s;
 	}
 
 	h3 {
@@ -1131,7 +1130,7 @@ ul {
         
 		font-size: 1rem;
         padding: 0 20% 0 0;
-        
+
 	}
 
 	section#zen-intro.intro, div#zen-supporting.main.supporting {
