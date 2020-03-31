@@ -587,32 +587,32 @@ ul {
     height: 300px;
   }
 
+  h1 {
+    position: relative;
+    text-align: left;
+    font-size: 3.3rem;
+    animation: fadein 1s;
+  }
+
   @keyframes fadein {
     from {
       opacity: 0;
       left: 100%;
     }
     50% {
-      opacity: 0.5;
+      opacity: 0.1;
     }
     to {
       opacity: 1;
       left: 0;
     }
   }
-  h1 {
-    position: relative;
-    text-align: left;
-    font-size: 3.3rem;
-    animation: fadein 2s;
-  }
-
   h2 {
     position: relative;
     font-size: 1.3rem;
     text-align: left;
     padding: 0 0 0 16rem;
-    animation: fadein 2s;
+    animation: fadein 1s;
   }
 
   h3 {
