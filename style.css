@@ -20,6 +20,10 @@ font-family: 'Quicksand', san-serif;
 font-family: 'Alice', serif;
 
 */
+.designer-name {
+  font-family: "Alice", serif;
+}
+
 a {
   text-decoration: none;
 }
