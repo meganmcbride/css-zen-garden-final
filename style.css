@@ -710,6 +710,8 @@ ul {
   .select {
     background-color: #CDA34F;
     color: #E9E7DA;
+    text-align: right;
+    padding-right: 10%;
   }
 
   .design-selection nav ul li {
